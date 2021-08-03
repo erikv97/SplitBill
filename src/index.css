@@ -1,0 +1,100 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  background-color: #f2f3ae;
+}
+.container {
+  height: 100%;
+}
+.main-class {
+  height: 100% !important;
+}
+.split-bill {
+  background-color: white;
+  height: 40vh;
+  width: 70vh;
+  border-radius: 20px;
+  padding: 5%;
+}
+.left-main-row {
+  height: 100% !important;
+}
+.tip-section input {
+  width: 100%;
+}
+.tip-section .col-md-4 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.tip-section .col-md-4 .btn {
+  width: 100%;
+}
+.custom-tip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-section {
+  background-color: #f4442e;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.tip-button {
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fc9e4f;
+}
+/* right section */
+.right-section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tip-section p {
+  padding: 1rem 1rem 1rem 0;
+  margin: 0;
+}
+.tip-amount,
+.row {
+  height: 25%;
+  width: 100%;
+}
+.custom-input {
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  border: 0px solid;
+  padding: 10px;
+  text-align: right;
+}
+.custom-input:focus {
+  cursor: pointer;
+  outline-color: turquoise;
+}
+.fa-dollar-sign:before {
+  content: "\f155";
+  position: absolute;
+  top: 65px;
+  z-index: 1;
+  padding-left: 1rem;
+  opacity: 0.5;
+}
+.fa-user-alt:before {
+  content: "\f406";
+  position: absolute;
+  top: 360px;
+  z-index: 1;
+  padding-left: 1rem;
+  opacity: 0.5;
+}
+.custom-tip-input {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
